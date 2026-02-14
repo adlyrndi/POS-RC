@@ -2,6 +2,6 @@
   "name": "por-rc-root",
   "private": true,
   "scripts": {
-    "start": "cd backend && npm install && npm run start"
+    "start": "cd backend && node src/app.js"
   }
 }
