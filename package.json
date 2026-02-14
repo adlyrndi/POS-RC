@@ -1,10 +1,4 @@
 {
   "name": "pos-roomcollection",
-  "private": true,
-  "workspaces": [
-    "backend"
-  ],
-  "scripts": {
-    "start": "npm run start --workspace backend"
-  }
+  "private": true
 }
