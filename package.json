@@ -1,14 +1,15 @@
 {
   "name": "pos-roomcollection",
   "private": true,
+  "main": "index.js",
   "engines": {
     "node": "20.x"
   },
-  "workspaces": [
-    "backend"
-  ],
   "scripts": {
-    "start": "npm start -w backend",
-    "build": "npm install"
+    "start": "node index.js",
+    "build": "cd backend && npm install"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
