@@ -1,1 +1,5 @@
-{}
+{
+  "name": "por-rc-monorepo",
+  "private": true,
+  "workspaces": ["backend", "mobile-app"]
+}
