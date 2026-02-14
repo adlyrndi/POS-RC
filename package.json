@@ -4,8 +4,11 @@
   "engines": {
     "node": "20.x"
   },
+  "workspaces": [
+    "backend"
+  ],
   "scripts": {
-    "start": "node backend/src/app.js",
-    "build": "cd backend && npm install"
+    "start": "npm start -w backend",
+    "build": "npm install"
   }
 }
