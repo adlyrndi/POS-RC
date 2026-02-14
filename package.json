@@ -5,10 +5,7 @@
     "node": "20.x"
   },
   "scripts": {
-    "start": "cd backend && node src/app.js",
-    "build": "cd backend && npm install"
-  },
-  "dependencies": {
-    "express": "^4.18.2"
+    "start": "if [ -f src/app.js ]; then node src/app.js; else node backend/src/app.js; fi",
+    "build": "if [ -d \"backend\" ]; then cd backend && npm install; else npm install; fi"
   }
 }
