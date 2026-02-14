@@ -1,7 +1,10 @@
 {
-  "name": "por-rc-root",
+  "name": "pos-roomcollection",
   "private": true,
+  "workspaces": [
+    "backend"
+  ],
   "scripts": {
-    "start": "cd backend && node src/app.js"
+    "start": "npm run start --workspace backend"
   }
 }
