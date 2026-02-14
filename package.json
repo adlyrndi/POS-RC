@@ -1,5 +1,7 @@
 {
-  "name": "por-rc-monorepo",
+  "name": "por-rc-root",
   "private": true,
-  "workspaces": ["backend", "mobile-app"]
+  "scripts": {
+    "start": "cd backend && npm install && npm run start"
+  }
 }
