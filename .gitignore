@@ -29,19 +29,19 @@ backend/.vercel
 # =====================
 # MOBILE (Expo / RN)
 # =====================
-mobile/node_modules/
-mobile/.env
-mobile/.env.*
-mobile/.expo/
-mobile/.expo-shared/
-mobile/dist/
-mobile/web-build/
-mobile/expo-env.d.ts
+mobile-app/node_modules/
+mobile-app/.env
+mobile-app/.env.*
+mobile-app/.expo/
+mobile-app/.expo-shared/
+mobile-app/dist/
+mobile-app/web-build/
+mobile-app/expo-env.d.ts
 
 # Native build folders
-mobile/ios/
-mobile/android/
-mobile/.kotlin/
+mobile-app/ios/
+mobile-app/android/
+mobile-app/.kotlin/
 
 # Mobile certs & keys
 *.jks

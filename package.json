@@ -1,4 +1,8 @@
 {
   "name": "pos-roomcollection",
-  "private": true
+  "private": true,
+  "scripts": {
+    "start": "node backend/src/app.js",
+    "build": "cd backend && npm install"
+  }
 }
