@@ -2,7 +2,7 @@
   "name": "pos-roomcollection",
   "private": true,
   "scripts": {
-    "start": "node backend/src/app.js",
-    "build": "cd backend && npm install"
+    "start": "node backend/src/app.js || node src/app.js",
+    "build": "if [ -d \"backend\" ]; then cd backend && npm install; else npm install; fi"
   }
 }
